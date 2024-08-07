@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<title>Вход</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240807101802">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper wrapper--decor">
+		<div class="login">
+			<form action="#" class="login__form form-login">
+				<h1 class="form-login__title">Вход</h1>
+				<div class="form-login__item">
+					<input autocomplete="off" type="text" name="login" required placeholder="Логин" class="form-login__input input">
+				</div>
+				<div class="form-login__item">
+					<input autocomplete="off" type="password" name="password" required placeholder="Пароль" class="form-login__input input">
+				</div>
+				<div class="form-login__item">
+					<select name="form[]" data-class-modif="form">
+						<option value="position" selected>Должность</option>
+						<option value="admin">Админ</option>
+						<option value="kassir">Кассир</option>
+					</select>
+				</div>
+				<div class="form-login__line">
+					<div class="checkbox">
+						<input id="c_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+						<label for="c_1" class="checkbox__label"><span class="checkbox__text">Запомнить меня</span></label>
+					</div>
+					<a href="#" class="form-login__link">Забыли пароль?</a>
+				</div>
+				<a data-login href="#" class="form-login__button button">Войти</a>
+				<div class="form-login__line form-login__line--short">
+					<p class="form-login__text">Нет аккаунта?</p>
+					<a href="#" class="form-login__link">Зарегистрироваться</a>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20240807101802"></script>
+</body>
+
+</html>
